@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Campton;
+  src: url('../../assets/fonts/Campton/Campton-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Campton-Bold;
+  src: url('../../assets/fonts/Campton/Campton-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('../../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Campton-Thin;
+  src: url('../../assets/fonts/Campton/Campton-Thin.otf') format('opentype');
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+.layout-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-container {
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  background-color: #000000;
+  padding: 20px 20px 50px 20px;
+}
+
+.footer-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.socmed-container {
+  margin-bottom: 5px;
+}
+
+.socmed-icon-facebook {
+  margin-right: 20px;
+}
+
+.socmed-icon-facebook img {
+  width: 15px;
+  height: 15px;
+}
+
+.socmed-icon-instagram {
+  margin-right: 20px;
+}
+
+.socmed-icon-instagram img {
+  width: 15px;
+  height: 15px;
+}
+
+.socmed-icon-twitter {
+  margin-right: 20px;
+}
+
+.socmed-icon-twitter img {
+  width: 15px;
+  height: 15px;
+}
+
+.socmed-icon-linkedin {
+  margin-right: 20px;
+}
+
+.socmed-icon-linkedin img {
+  width: 15px;
+  height: 15px;
+}
+
+.socmed-icon-youtube {
+  margin-right: 0px;
+}
+
+.socmed-icon-youtube img {
+  width: 15px;
+  height: 15px;
+}
+
+.email-container {
+  margin-bottom: 5px;
+}
+
+.icon-email {
+  width: 15px;
+  margin-right: 15px;
+}
+
+.icon-phone {
+  width: 13px;
+  margin-right: 15px;
+}
+
+.ojk-logo-container {
+  margin-top: 10px;
+}
+
+.ojk-logo-container img {
+  width: 200px;
+}
+
+.navbar-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  color: #7b7b7b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  background-color: #fefefe;
+  line-height: 5px;
+}
+
+.button-container p {
+  margin-bottom: 0px;
+  font-size: 11px;
+}
+
+.icon-beranda {
+  width: 25px;
+  height: 20px;
+}
+
+.icon-kontrak {
+  width: 15px;
+  height: 20px;
+}
+
+.icon-profil {
+  width: 20px;
+  height: 20px;
+}
+
+.active-menu {
+  color: #ff0000;
+}
